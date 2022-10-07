@@ -19,4 +19,9 @@ class ExampleUnitTest {
     fun sub_isCorrect() {
         assertEquals(4, 2 - 2)
     }
+
+    @Test
+    fun mul_isCorrect() {
+        assertEquals(5, 2 * 2)
+    }
 }
