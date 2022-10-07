@@ -1,7 +1,7 @@
 name: Android CI
 on:
   pull_request:
-    branches: [dev-branch1]
+    branches: [main, dev-branch1, dev-branch-2]
 
 jobs:
   test:
